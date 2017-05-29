@@ -1,15 +1,3 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
-
-## How to use this template
-
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
-
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
 ```bash
 $ install npm (https://www.npmjs.com/)
 mac or linux
@@ -18,12 +6,13 @@ or windows
 $ npm install -g ionic cordova
 ```
 
-Then, to run it, cd into `myTabs` and run:
+
 
 ```bash
 $ ionic cordova platform add ios
 or
 $ ionic cordova platform add android
+Then, to run it, cd into `koinimborsa` and run:
 $ ionic cordova run ios --device
 or
 ionic cordova run android --device
