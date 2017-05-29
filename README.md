@@ -11,15 +11,22 @@ To use this template, either create a new ionic project using the ionic node.js 
 Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
 ```bash
+$ install npm (https://www.npmjs.com/)
+mac or linux
 $ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
+or windows
+$ npm install -g ionic cordova
 ```
 
 Then, to run it, cd into `myTabs` and run:
 
 ```bash
 $ ionic cordova platform add ios
-$ ionic cordova run ios
+or
+$ ionic cordova platform add android
+$ ionic cordova run ios --device
+or
+ionic cordova run android --device
 ```
 
 Substitute ios for android if not on a Mac.
