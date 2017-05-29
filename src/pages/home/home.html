@@ -1,15 +1,23 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+    <ion-navbar color="primary">
+        <ion-title>
+           Koinim Borsası
+        </ion-title>
+    </ion-navbar>
+
 </ion-header>
 
-<ion-content padding>
+<ion-content style="background-color:white" padding>
      <ion-refresher (ionRefresh)="doRefresh($event)">
         <ion-refresher-content color="primary" pullingIcon="arrow-dropdown" refreshingSpinner="crescent">
         </ion-refresher-content>
     </ion-refresher>
-  Satış: {{sell}}
-  <br>
-  Alış: {{buy}}
+  
+  <div text-center>
+    
+  <h1 style="color:green">Satış: {{sell}} TL</h1>
+  <h1 style="color:orange"> Alış: {{buy}} TL</h1>
+
+  <h3 style="color:gray"> *Yenilemek için aşağı çekin. </h3>
+  </div>
 </ion-content>
